@@ -1,0 +1,29 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-bangla {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.active {
+  background-color: #422ad5;
+  color: white;
+}
+
+.btn{
+  transition: all 0.25s ease;
+}
+
+.btn:hover{
+  transform: translateY(-2px);
+}
+
+#word-container > div{
+  transition: all .3s ease;
+}
+
+#word-container > div:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+}
